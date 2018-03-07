@@ -1,0 +1,23 @@
+{
+    "name": "circulatecms/framework",
+    "description": "The Circulate CMS framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilbert Pellegrom",
+            "email": "gilbert@pellegrom.me"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.0",
+        "symfony/finder": "^4.0",
+        "symfony/yaml": "^4.0",
+        "erusev/parsedown": "^1.6",
+        "philo/laravel-blade": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Circulate\\": "src/"
+        }
+    }
+}
