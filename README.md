@@ -1,3 +1,5 @@
+[![Packagist](https://img.shields.io/packagist/v/CirculateCMS/framework.svg)](https://github.com/CirculateCMS/framework) [![Packagist](https://img.shields.io/packagist/dt/CirculateCMS/framework.svg)](https://github.com/CirculateCMS/framework)
+
 # Circulate Framework
 
 This repository contains the core code of the Circulate CMS. If you want to build an site using Circulate, visit the main [Circulate repository](https://github.com/CirculateCMS/circulate).
