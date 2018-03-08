@@ -1,4 +1,4 @@
-[![Packagist](https://img.shields.io/packagist/v/CirculateCMS/framework.svg)](https://github.com/CirculateCMS/framework) [![Packagist](https://img.shields.io/packagist/dt/CirculateCMS/framework.svg)](https://github.com/CirculateCMS/framework)
+[![Packagist](https://img.shields.io/packagist/v/CirculateCMS/framework.svg)](https://packagist.org/packages/circulatecms/framework) [![Packagist](https://img.shields.io/packagist/dt/CirculateCMS/framework.svg)](https://packagist.org/packages/circulatecms/framework)
 
 # Circulate Framework
 
