@@ -164,7 +164,10 @@ class Circulate
         foreach ($collectionDirs as $collectionDir) {
             $entries = [];
 
-            $files = (new Finder())->in($collectionDir->getPathname())->files()->name('*.md');
+            $files = (new Finder())->in($collectionDir->getPathname())->files()->name('*.md')->sort(function(\SplFileInfo $a, \SplFileInfo $b) {
+                return strcmp($b->getRealPath(), $a->getRealPath());
+            });
+
             foreach ($files as $file) {
                 $doc = new Document($collectionDir->getPathname(), $file, $collectionDir->getBasename());
                 $entries[$doc->slug()] = $doc;
