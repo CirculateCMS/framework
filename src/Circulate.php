@@ -104,7 +104,7 @@ class Circulate
             'theme'        => $this->env('THEME', 'default'),
             'cache_path'   => $this->env('CACHE_PATH', '_storage/cache'),
             'content_path' => $this->env('CONTENT_PATH', '_content'),
-            'themes_path'  => $this->env('THEMES_PATH', 'themes'),
+            'themes_path'  => $this->env('THEMES_PATH', 'public/themes'),
         ];
     }
 
