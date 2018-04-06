@@ -101,6 +101,7 @@ class Circulate
     {
         return [
             'site_title'   => $this->env('SITE_TITLE', ''),
+            'site_url'     => $this->env('SITE_URL', ''),
             'theme'        => $this->env('THEME', 'default'),
             'cache_path'   => $this->env('CACHE_PATH', '_storage/cache'),
             'content_path' => $this->env('CONTENT_PATH', '_content'),

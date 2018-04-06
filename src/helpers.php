@@ -9,6 +9,12 @@ if (!function_exists('url')) {
      */
     function url($path = '')
     {
-        echo $path;
+		$url = getenv('SITE_URL') ?: '';
+
+		if (empty($path)) {
+			return $url;
+		}
+		
+		return rtrim($url, '/') . '/' . ltrim($path, '/');
     }
 }
