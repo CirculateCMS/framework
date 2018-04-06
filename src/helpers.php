@@ -9,15 +9,15 @@ if (!function_exists('asset')) {
      */
     function asset($path = '')
     {
-		$url = getenv('SITE_URL') ?: '';
-		$theme = getenv('THEME') ?: 'default';
-		$url = rtrim($url, '/') . '/themes/' . $theme;
+        $url = getenv('SITE_URL') ?: '';
+        $theme = getenv('THEME') ?: 'default';
+        $url = rtrim($url, '/') . '/themes/' . $theme;
 
-		if (empty($path)) {
-			return $url;
-		}
-		
-		return rtrim($url, '/') . '/' . ltrim($path, '/');
+        if (empty($path)) {
+            return $url;
+        }
+        
+        return rtrim($url, '/') . '/' . ltrim($path, '/');
     }
 }
 
@@ -30,12 +30,12 @@ if (!function_exists('url')) {
      */
     function url($path = '')
     {
-		$url = getenv('SITE_URL') ?: '';
+        $url = getenv('SITE_URL') ?: '';
 
-		if (empty($path)) {
-			return $url;
-		}
-		
-		return rtrim($url, '/') . '/' . ltrim($path, '/');
+        if (empty($path)) {
+            return $url;
+        }
+        
+        return rtrim($url, '/') . '/' . ltrim($path, '/');
     }
 }
