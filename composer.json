@@ -16,6 +16,9 @@
         "philo/laravel-blade": "^3.1"
     },
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
             "Circulate\\": "src/"
         }
