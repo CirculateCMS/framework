@@ -48,7 +48,6 @@ class Circulate
      */
     public function __construct($basePath, $logger)
     {
-        echo 'test';
         $this->logger = $logger;
 
         $this->settings        = $this->settings();
