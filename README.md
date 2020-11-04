@@ -1,3 +1,5 @@
+# Nov 2020: Circulate has been discontinued and superseded by https://github.com/Saaze/saaze
+
 [![Packagist](https://img.shields.io/packagist/v/CirculateCMS/framework.svg)](https://packagist.org/packages/circulatecms/framework) [![Packagist](https://img.shields.io/packagist/dt/CirculateCMS/framework.svg)](https://packagist.org/packages/circulatecms/framework)
 
 # Circulate Framework
